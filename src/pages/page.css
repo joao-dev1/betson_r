@@ -1,0 +1,173 @@
+
+.home{
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.menu{
+  height: 100vh;
+  width: 20vh;
+  display: flex;
+  box-sizing: border-box;
+  padding:15px;
+  flex-direction:  column;
+  gap: 15px;
+  border-right: 1px solid rgba(255, 255, 255, .5);
+  color: #ffffff;
+ }
+.content{
+    background-color: #1E90FF;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: calc(10px + 2vmin);
+    color: #F4A460;
+    gap:5px;
+    
+  }
+
+  .apostasHoje{
+    background-color: #1E90FF;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    color: #F4A460;
+    gap:5px;
+    
+  }
+
+  .styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    justify-content: center;
+}
+.styled-table thead tr {
+  background-color: #80b7ff;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+  text-align: center;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #80b7ff;
+
+  
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #80b7ff;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+ 
+  .header{
+    background-color: #1E90FF;
+    color: #F4A460;
+    display: flex;
+    justify-content: right;
+    padding-right: 15px;
+    height: 10%;
+  }
+  .headerModal{
+    display: flex;
+  justify-content: right;
+
+  }
+  .footerModal{
+    display: flex;
+    justify-content: right;
+  }
+  .buttonCloseModal{
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  }
+  .buttonCloseModal:hover{
+    cursor: pointer;
+ }
+.apostaContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: #fff;
+  gap:20px;
+  padding: 50px;
+}
+.form-control{
+  font-size: 1rem;
+  display: flex;
+  gap:5px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+  .input{
+    width: 200px;
+    height: 20px;
+    border-radius: 15px;
+    border: 0 none;
+    outline: 0;
+    text-align: center;
+
+  }
+  .inputModal{
+   width: 100px;
+    border-radius: 5px;
+    border: 0 none;
+    outline: 0;
+   
+   
+  }
+
+  
+  .entrar{
+    background-color: #F4A460;
+    color:#fff;
+    border-radius: 2px;
+    border:0;
+    outline:none;  
+    width: 100px;
+  }
+  .button-primary{
+    background-color: #F4A460;
+    color:#fff;
+    border-radius: 2px;
+    border:0;
+    outline:none;  
+    padding: 5px;
+    text-align: center;
+  }
+
+  .entrar:hover{
+   cursor:pointer;
+   transform: scale(1.1);
+   outline:none;  
+  }
+  .button-primary:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+    outline:none;  
+   }
